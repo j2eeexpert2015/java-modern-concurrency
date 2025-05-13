@@ -1,4 +1,4 @@
-package com.example.virtualthreads;
+package com.example.javaconcurrency.virtualthreads;
 
 public class ThreadTimingComparison {
     private static final int TASK_COUNT = 100_000; 
