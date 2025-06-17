@@ -9,8 +9,6 @@ import java.util.concurrent.TimeUnit;
  *
  * To capture JFR events, run with one of the following VM arguments:
  *
- * --enable-preview -XX:StartFlightRecording=duration=60s,filename=vt-demo.jfr,settings=profile
- * --enable-preview -XX:StartFlightRecording=duration=60s,filename=vt-demo.jfr,settings=default
  * --enable-preview -XX:StartFlightRecording=duration=60s,filename=vt-demo.jfr,settings=virtual-threads.jfc
  *
  * Ensure enough work runs during the recording window to generate events.

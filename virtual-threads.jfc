@@ -17,4 +17,12 @@
         <setting name="enabled">true</setting>
         <setting name="stackTrace">true</setting>
     </event>
+    <event name="jdk.VirtualThreadMount">
+        <setting name="enabled">true</setting>
+        <setting name="stackTrace">true</setting>
+    </event>
+    <event name="jdk.VirtualThreadUnmount">
+        <setting name="enabled">true</setting>
+        <setting name="stackTrace">true</setting>
+    </event>
 </configuration>
